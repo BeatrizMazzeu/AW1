@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site Blog">
+<meta name="keywords" content="Ensino,Pesquisa">
+<meta name="author" content="Beatriz Leandro Mazzeu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mazzeu Blog</title>
+
+</head>
+<body>
+    <h3><select id="livros" name="livros"></h3>
+        <option value="O duque e eu">O duque e eu</option>
+        <option value="After">After</option>
+        <option value="Before">Before</option>
+        <option value="Bridgerton">Bridgerton</option>
+        </select>
+
+        <form>
+            <input list="generos">
+            <datalist id="generos">
+            <option value="Romance">
+            <option value="Drama">
+            <option value="Suspense">
+            </datalist>
+            </form>
+    
+            <form>
+                <input type="checkbox" id="menoslivros" name="menoslivros" value="Menoslivros">
+                <label for="bike"> Eu tenho menos de 5 livros</label><br>
+                <input type="checkbox" id="maislivros" name="maislivros" value="Maislivros">
+                <label for="carro"> Eu tenho mais de 5 livros</label><br>
+                <input type="checkbox" id="5livros" name="5livros" value="5livros">
+                <label for="moto"> Eu tenho 5 livros</label>
+                </form> 
+        <h4>comentários</h4>
+    
+                <textarea name="message" rows="5" cols="30">
+                </textarea>
+                <button type="button" onclick="alert('Obrigado pela sua resposta!')">
+                    Aperte aqui!
+                    </button>
+                    
+                        
+                    <form>
+                        <fieldset>
+                        <legend>Dados Pessoais:</legend>
+                        <label for="fname">Primeiro nome:</label><br>
+                        <input type="text" id="fname"  name="fname" required ><br>
+                        <label for="snome">Sobrenome:</label><br>
+                        <input type="text" id="snome" value="Leitor(a)" name="snome" autofocus readonly > <br>
+                        <label for="fname"> Email:</label><br>
+                        <input type="email"><br>
+                        <label for="snome">Senha:</label><br>
+                        <input type="password"><br>
+                        <input type="submit" value="Submit">
+                        
+                        </fieldset>
+                    </form>
+                   
+                        
+    </body>
+    </html>
+    
+    
