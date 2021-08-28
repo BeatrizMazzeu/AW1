@@ -1,10 +1,22 @@
-/* level 1 e level 2 */
+  
+/* Level 1 */
 function init(robot) {
-  console.log("Robot initializing...");
+    // your code goes here
 }
 
 function loop(robot) {
-  robot.action = { type: 'move', amount: 40 };
+    robot.action = {
+        type: 'move', amount: 40}
+}
+
+/* Level 2 */
+function init(robot) {
+    // your code goes here
+}
+
+function loop(robot) {
+    robot.action = {
+        type: 'move', amount: 40 }
 }
 
 /* level 3 */
